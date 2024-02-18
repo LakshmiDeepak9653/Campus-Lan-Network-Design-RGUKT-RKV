@@ -1,0 +1,187 @@
+!
+version 12.2(37)SE1
+service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname BH2_SW
+!
+!
+enable secret 5 $1$mERr$ycsOaRX/6u4VghqZA4zWb.
+!
+!
+!
+!
+!
+ip routing
+!
+!
+!
+!
+username admin secret 5 $1$mERr$u6bXnRbHtjySSeBKFm9BU.
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip domain-name Rgukt
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/1
+ switchport access vlan 99
+ switchport mode access
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+ switchport trunk native vlan 99
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/6
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+interface FastEthernet0/13
+!
+interface FastEthernet0/14
+!
+interface FastEthernet0/15
+!
+interface FastEthernet0/16
+!
+interface FastEthernet0/17
+!
+interface FastEthernet0/18
+!
+interface FastEthernet0/19
+!
+interface FastEthernet0/20
+!
+interface FastEthernet0/21
+ switchport trunk native vlan 99
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/22
+ switchport trunk native vlan 99
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/23
+ switchport trunk native vlan 99
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/24
+ switchport trunk native vlan 99
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface GigabitEthernet0/1
+ no switchport
+ ip address 10.1.24.5 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/2
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ mac-address 0001.c99d.2101
+ ip address 10.61.0.1 255.255.255.0
+ ip helper-address 10.1.24.1
+!
+interface Vlan11
+ mac-address 0001.c99d.2102
+ ip address 10.61.1.1 255.255.255.0
+ ip helper-address 10.1.24.1
+!
+interface Vlan12
+ mac-address 0001.c99d.2103
+ ip address 10.61.2.1 255.255.255.0
+ ip helper-address 10.1.24.1
+!
+interface Vlan13
+ mac-address 0001.c99d.2104
+ ip address 10.61.3.1 255.255.255.0
+ ip helper-address 10.1.24.1
+!
+interface Vlan99
+ mac-address 0001.c99d.2105
+ ip address 10.61.100.1 255.255.255.0
+ ip helper-address 10.1.24.1
+!
+router ospf 1
+ log-adjacency-changes
+ network 10.0.0.0 0.255.255.255 area 1
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+access-list 9 permit 10.9.10.0 0.0.0.255
+access-list 9 remark ssh_accesss_fromSRV1
+access-list 10 permit 10.10.10.0 0.0.0.255
+access-list 10 remark ssh_accesss_fromSRV2
+!
+!
+!
+!
+!
+!
+logging trap debugging
+logging 10.9.10.10
+line con 0
+ exec-timeout 3 0
+ logging synchronous
+ login local
+!
+line aux 0
+!
+line vty 0 4
+ access-class 9 in
+ exec-timeout 3 0
+ login local
+ transport input ssh
+line vty 5 15
+ access-class 9 in
+ exec-timeout 3 0
+ login local
+ transport input ssh
+!
+!
+!
+!
+end
+

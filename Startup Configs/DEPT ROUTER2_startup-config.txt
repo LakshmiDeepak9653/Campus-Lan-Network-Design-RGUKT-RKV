@@ -1,0 +1,111 @@
+!
+version 15.1
+service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname DEPT_ROUTER2
+!
+!
+!
+enable secret 5 $1$mERr$ycsOaRX/6u4VghqZA4zWb.
+!
+!
+!
+!
+!
+!
+no ip cef
+no ipv6 cef
+!
+!
+!
+username admin secret 5 $1$mERr$u6bXnRbHtjySSeBKFm9BU.
+!
+!
+license udi pid CISCO2911/K9 sn FTX15244F9V-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip domain-name Rgukt
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ ip address 10.1.17.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 10.1.16.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/2
+ ip address 10.1.13.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface Serial0/3/0
+ ip address 10.1.11.2 255.255.255.0
+ clock rate 4000000
+!
+interface Serial0/3/1
+ ip address 10.1.12.1 255.255.255.0
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router ospf 1
+ log-adjacency-changes
+ network 10.0.0.0 0.255.255.255 area 1
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+access-list 9 permit 10.9.10.0 0.0.0.255
+access-list 9 remark ssh_accesss_fromSRV1
+!
+!
+!
+!
+!
+logging trap debugging
+logging 10.9.10.10
+line con 0
+ exec-timeout 3 0
+ logging synchronous
+ login local
+!
+line aux 0
+!
+line vty 0 4
+ access-class 9 in
+ exec-timeout 3 0
+ login local
+ transport input ssh
+line vty 5 15
+ access-class 9 in
+ exec-timeout 3 0
+ login local
+ transport input ssh
+!
+!
+!
+end
+

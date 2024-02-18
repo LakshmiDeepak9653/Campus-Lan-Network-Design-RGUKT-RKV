@@ -1,0 +1,146 @@
+!
+version 12.2(37)SE1
+service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname F4
+!
+!
+enable secret 5 $1$mERr$ycsOaRX/6u4VghqZA4zWb.
+!
+!
+!
+!
+!
+ip routing
+!
+!
+!
+!
+username admin secret 5 $1$mERr$u6bXnRbHtjySSeBKFm9BU.
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip domain-name Rgukt
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+!
+interface FastEthernet0/6
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+interface FastEthernet0/13
+!
+interface FastEthernet0/14
+!
+interface FastEthernet0/15
+!
+interface FastEthernet0/16
+!
+interface FastEthernet0/17
+!
+interface FastEthernet0/18
+!
+interface FastEthernet0/19
+!
+interface FastEthernet0/20
+!
+interface FastEthernet0/21
+!
+interface FastEthernet0/22
+!
+interface FastEthernet0/23
+!
+interface FastEthernet0/24
+!
+interface GigabitEthernet0/1
+ no switchport
+ ip address 10.1.22.4 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/2
+!
+interface Vlan1
+ ip address 10.102.52.1 255.255.255.0
+ ip helper-address 10.1.22.1
+!
+router ospf 1
+ log-adjacency-changes
+ passive-interface Vlan1
+ network 10.0.0.0 0.255.255.255 area 1
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+access-list 9 permit 10.9.10.0 0.0.0.255
+access-list 9 remark ssh_accesss_fromSRV1
+access-list 10 permit 10.10.10.0 0.0.0.255
+access-list 10 remark ssh_accesss_fromSRV2
+!
+!
+!
+!
+!
+!
+logging trap debugging
+logging 10.9.10.10
+line con 0
+ exec-timeout 3 0
+ logging synchronous
+ login local
+!
+line aux 0
+!
+line vty 0 4
+ access-class 9 in
+ exec-timeout 3 0
+ login local
+ transport input ssh
+line vty 5 15
+ access-class 9 in
+ exec-timeout 3 0
+ login local
+ transport input ssh
+!
+!
+!
+!
+end
+

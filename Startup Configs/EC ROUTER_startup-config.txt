@@ -1,0 +1,224 @@
+!
+version 15.1
+service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname EC_ROUTER
+!
+!
+!
+enable secret 5 $1$mERr$ycsOaRX/6u4VghqZA4zWb.
+!
+!
+ip dhcp excluded-address 10.6.1.0 10.6.1.50
+!
+ip dhcp pool data2
+ network 10.6.1.0 255.255.255.0
+ default-router 10.6.1.1
+ option 150 ip 10.6.1.1
+ dns-server 10.10.10.10
+!
+!
+!
+no ip cef
+no ipv6 cef
+!
+!
+!
+username admin secret 5 $1$mERr$u6bXnRbHtjySSeBKFm9BU.
+!
+!
+license udi pid CISCO2811/K9 sn FTX1017HZAD-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip domain-name Rgukt
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 10.1.31.2 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 10.1.32.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/2/0
+ switchport mode access
+ switchport voice vlan 1
+!
+interface FastEthernet0/2/1
+ switchport mode access
+!
+interface FastEthernet0/2/2
+ switchport mode access
+!
+interface FastEthernet0/2/3
+ switchport mode access
+!
+interface Vlan1
+ ip address 10.6.1.1 255.255.255.0
+!
+router ospf 1
+ log-adjacency-changes
+ passive-interface Vlan1
+ network 10.0.0.0 0.255.255.255 area 1
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+access-list 9 permit 10.9.10.0 0.0.0.255
+access-list 9 remark ssh_accesss_fromSRV1
+access-list 10 permit 10.10.10.0 0.0.0.255
+access-list 10 remark ssh_accesss_fromSRV2
+!
+!
+!
+!
+!
+logging trap debugging
+logging 10.9.10.10
+dial-peer voice 1 voip
+ destination-pattern 13...
+ session target ipv4:10.9.10.1
+!
+dial-peer voice 2 voip
+ destination-pattern 11...
+ session target ipv4:10.3.1.1
+!
+dial-peer voice 3 voip
+ destination-pattern 12...
+ session target ipv4:10.5.1.1
+!
+dial-peer voice 4 voip
+ destination-pattern 14...
+ session target ipv4:10.7.1.1
+!
+dial-peer voice 5 voip
+ destination-pattern 15...
+ session target ipv4:10.11.1.1
+!
+dial-peer voice 6 voip
+ destination-pattern 16...
+ session target ipv4:10.13.1.1
+!
+dial-peer voice 7 voip
+ destination-pattern 17...
+ session target ipv4:10.15.1.1
+!
+dial-peer voice 8 voip
+ destination-pattern 21...
+ session target ipv4:10.4.1.1
+!
+dial-peer voice 9 voip
+ destination-pattern 22...
+ session target ipv4:10.6.1.1
+!
+dial-peer voice 10 voip
+ destination-pattern 23...
+ session target ipv4:10.10.10.1
+!
+dial-peer voice 11 voip
+ destination-pattern 24...
+ session target ipv4:10.8.1.1
+!
+dial-peer voice 12 voip
+ destination-pattern 25...
+ session target ipv4:10.12.1.1
+!
+dial-peer voice 13 voip
+ destination-pattern 26...
+ session target ipv4:10.14.1.1
+!
+dial-peer voice 14 voip
+ destination-pattern 27...
+ session target ipv4:10.16.1.1
+!
+dial-peer voice 15 voip
+ destination-pattern 31...
+ session target ipv4:10.24.1.1
+!
+dial-peer voice 16 voip
+ destination-pattern 32...
+ session target ipv4:10.23.1.1
+!
+dial-peer voice 17 voip
+ destination-pattern 41...
+ session target ipv4:10.17.1.1
+!
+dial-peer voice 18 voip
+ destination-pattern 42...
+ session target ipv4:10.18.1.1
+!
+dial-peer voice 19 voip
+ destination-pattern 43...
+ session target ipv4:10.19.1.1
+!
+dial-peer voice 20 voip
+ destination-pattern 44...
+ session target ipv4:10.20.1.1
+!
+dial-peer voice 21 voip
+ destination-pattern 45...
+ session target ipv4:10.21.1.1
+!
+dial-peer voice 22 voip
+ destination-pattern 46...
+ session target ipv4:10.22.1.1
+!
+telephony-service
+ max-ephones 5
+ max-dn 5
+ ip source-address 10.6.1.1 port 2000
+ auto assign 4 to 6
+ auto assign 1 to 5
+!
+ephone-dn 1
+ number 22001
+!
+ephone 1
+ device-security-mode none
+ mac-address 00E0.F990.5A11
+ type 7960
+ button 1:1
+!
+line con 0
+ exec-timeout 3 0
+ logging synchronous
+ login local
+!
+line aux 0
+!
+line vty 0 4
+ access-class 9 in
+ exec-timeout 3 0
+ login local
+ transport input ssh
+line vty 5 15
+ access-class 9 in
+ exec-timeout 3 0
+ login local
+ transport input ssh
+!
+!
+!
+end
+
