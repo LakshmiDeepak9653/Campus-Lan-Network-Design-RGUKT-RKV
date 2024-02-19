@@ -1,4 +1,4 @@
-  id                  email                    password          name on pc
+  ID                  EMAIL                    PASSWORD          NAME
 director	director@rguktrkv.ac.in		iiits123	Director of RGUKT RKV		
 finance		finance@rguktrkv.ac.in		iiits123	Financial Office of RGUKT RKV
 schlorship	schlorship@rguktrkv.ac.in	iiits123	Schlorship Office of RGUKt RKV
