@@ -1,5 +1,9 @@
-# Rgukt-RK-valley-Lan-architecture
-this is a replication of a LAN network of my collage. Did to test my CCNA Knowledge
+# Welcome to Campus Area Network System Design!
+
+![hello](https://github.com/LakshmiDeepak9653/resoures1/blob/main/wave.gif) Welcome to Campus Area Network System Project!
+ We're thrilled to have you here.
+
+this is a replication of a Campus LAN network of my collage <strong>RGUKT RK Valley</strong>. Did to test my CCNA Knowledge
 
 ## <b> Let's Connect..!</b><img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/handshake.gif" width ="80">
 <br>
