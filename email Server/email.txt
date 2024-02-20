@@ -1,4 +1,3 @@
-  ID                  EMAIL                     PASSWORD              NAME                          DEVICE LOGGED IN
 director	director@rguktrkv.ac.in		iiits123	Director of RGUKT RKV		
 finance		finance@rguktrkv.ac.in		iiits123	Financial Office of RGUKT RKV
 schlorship	schlorship@rguktrkv.ac.in	iiits123	Schlorship Office of RGUKt RKV
@@ -26,6 +25,7 @@ mme		mme@rguktrkv.ac.in		iiits123	MME Department of RGUKT RKV
 labcomplex	labcomplex@rguktrkv.ac.in	iiits123	LAB COMPLEX of RGUKT RKV
 library		library@rguktrkv.ac.in		iiits123	LIBRARY of RGUKT RKV
 
+dept mails=["director@rguktrkv.ac.in",'finance@rguktrkv.ac.in','schlorship@rguktrkv.ac.in','dean@rguktrkv.ac.in','examcell@rguktrkv.ac.in','warden@rguktrkv.ac.in','srv1@rguktrkv.ac.in','srv2@rguktrkv.ac.in','telugu@rguktrkv.ac.in','physics@rguktrkv.ac.in','chemistry@rguktrkv.ac.in','english@rguktrkv.ac.in','maths@rguktrkv.ac.in','biology@rguktrkv.ac.in','cse@rguktrkv.ac.in','eee@rguktrkv.ac.in','ece@rguktrkv.ac.in','civil@rguktrkv.ac.in','mech@rguktrkv.ac.in','mme@rguktrkv.ac.in','labcomplex@rguktrkv.ac.in','library@rguktrkv.ac.in']
 
 r150100		r150100@rguktrkv.ac.in		iiits123	KURUKUTI NARESH			10.102.101.100
 r150200		r150200@rguktrkv.ac.in		iiits123	JANGAM SANDHYA 			10.102.102.100
@@ -92,8 +92,3 @@ r200700		r200700@rguktrkv.ac.in		iiits123	KENCHAKKAGARI PRATHYUSHA
 r200800		r200800@rguktrkv.ac.in		iiits123	NEELAM RAMA NIKITHA		CIVIL LAP 2
 r200900		r200900@rguktrkv.ac.in		iiits123	SIMGAM VEDAPRAKASH		CSE LAP 1
 r201000		r201000@rguktrkv.ac.in		iiits123	TALARI BABJI 			CSE LAP 2
-
-
-
-
-dept mails=["director@rguktrkv.ac.in",'finance@rguktrkv.ac.in','schlorship@rguktrkv.ac.in','dean@rguktrkv.ac.in','examcell@rguktrkv.ac.in','warden@rguktrkv.ac.in','srv1@rguktrkv.ac.in','srv2@rguktrkv.ac.in','telugu@rguktrkv.ac.in','physics@rguktrkv.ac.in','chemistry@rguktrkv.ac.in','english@rguktrkv.ac.in','maths@rguktrkv.ac.in','biology@rguktrkv.ac.in','cse@rguktrkv.ac.in','eee@rguktrkv.ac.in','ece@rguktrkv.ac.in','civil@rguktrkv.ac.in','mech@rguktrkv.ac.in','mme@rguktrkv.ac.in','labcomplex@rguktrkv.ac.in','library@rguktrkv.ac.in']
