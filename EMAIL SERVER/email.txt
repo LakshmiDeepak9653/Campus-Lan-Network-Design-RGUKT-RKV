@@ -1,0 +1,100 @@
+  ID               	EMAIL                   PASSWORD              	NAME                        	  DEVICE LOGGED IN
+director	director@rguktrkv.ac.in		iiits123	Director of RGUKT RKV				DIR PC
+finance		finance@rguktrkv.ac.in		iiits123	Financial Office of RGUKT RKV			FO PC
+schlorship	schlorship@rguktrkv.ac.in	iiits123	Schlorship Office of RGUKt RKV			SO PC
+dean		dean@rguktrkv.ac.in		iiits123	Dean of Student Welfare RGUKT RKV		DEAN PC
+examcell	examcell@rguktrkv.ac.in		iiits123	Examcell of RGUKT RKV				EC PC
+warden		warden@rguktrkv.ac.in		iiits123	Warden Office of RGUKT RKV			WO PC
+
+srv1		srv1@rguktrkv.ac.in		iiits123	Server Room 1 of RGUKT RKV			SRV1 PC
+srv2		srv2@rguktrkv.ac.in		iiits123	Server Room 2 of RGUKT RKV			SRV2 PC
+
+telugu		telugu@rguktrkv.ac.in		iiits123	Telugu Department of RGUKT RKV			TEL PC
+physics		physics@rguktrkv.ac.in		iiits123	Physics Department of RGUKT RKV			PHY PC
+chemistry	chemistry@rguktrkv.ac.in	iiits123	Chemistry Department of RGUKT RKV		CHEM PC
+english		english@rguktrkv.ac.in		iiits123	English Department of RGUKT RKV			ENG PC
+maths		maths@rguktrkv.ac.in		iiits123	Maths Department of RGUKT RKV			MATH PC
+biology		biology@rguktrkv.ac.in		iiits123	Biology Department of RGUKT RKV			BIO PC
+
+cse		cse@rguktrkv.ac.in		iiits123	CSE Department of RGUKT RKV			CSE PC
+eee		eee@rguktrkv.ac.in		iiits123	EEE Department of RGUKT RKV			EEE PC
+ece		ece@rguktrkv.ac.in		iiits123	ECE Department of RGUKT RKV			ECE PC
+civil		civil@rguktrkv.ac.in		iiits123	CIVIL Department of RGUKT RKV			CIVIL PC
+mech		mech@rguktrkv.ac.in		iiits123	MECH Department of RGUKT RKV			MECH PC
+mme		mme@rguktrkv.ac.in		iiits123	MME Department of RGUKT RKV			MME PC
+
+labcomplex	labcomplex@rguktrkv.ac.in	iiits123	LAB COMPLEX of RGUKT RKV			LAB PC
+library		library@rguktrkv.ac.in		iiits123	LIBRARY of RGUKT RKV				LIBRARY PC
+
+
+r150100		r150100@rguktrkv.ac.in		iiits123	KURUKUTI NARESH					10.102.101.100
+r150200		r150200@rguktrkv.ac.in		iiits123	JANGAM SANDHYA 					10.102.102.100
+r150300		r150300@rguktrkv.ac.in		iiits123	POLIMERA HARI PRASADREDDY			10.102.151.100
+r150400		r150400@rguktrkv.ac.in		iiits123	YALAVARTHI MOUNIKA				10.102.152.100
+r150500		r150500@rguktrkv.ac.in		iiits123	BELLAMKONDA TEJA				LIB PHONE
+r150600		r150600@rguktrkv.ac.in		iiits123	BASINENI REDDY THULASI				MME LAP1
+r150700		r150700@rguktrkv.ac.in		iiits123	AKEPOGU NAVAJEEVAN SAGAR		 	BH2 TAB 2F
+r150800		r150800@rguktrkv.ac.in		iiits123	SAVARAM MUNENDRA 				BH2 TAB 3F
+r150900		r150900@rguktrkv.ac.in		iiits123	KADARAKUNTA HARSHA VARDHINI			GH2 PHONE 2F
+r151000		r151000@rguktrkv.ac.in		iiits123	SIRUMALLA YASASWINI				GH2 TAB 3F
+
+r160100		r160100@rguktrkv.ac.in		iiits123	KURESI JANARDHANA				10.102.1.100
+r160200		r160200@rguktrkv.ac.in		iiits123	KALIKIRI AKHILA					10.102.2.100
+r160300		r160300@rguktrkv.ac.in		iiits123	GURRAMKONDA ABDUL KAREEM		 	10.102.51.100
+r160400		r160400@rguktrkv.ac.in		iiits123	AKKIM VENKAT THARUN 				10.102.52.100
+r160500		r160500@rguktrkv.ac.in		iiits123	AATHKHEYA KHATUN 				LIB LAP 3	
+r160600		r160600@rguktrkv.ac.in		iiits123	VEMULA RAHUL KRISHNA				MME LAP 2
+r160700		r160700@rguktrkv.ac.in		iiits123	SYED USMA					GH2 TAB 0F
+r160800		r160800@rguktrkv.ac.in		iiits123	BOMMANA SUSHMITHA				GH2 PHONE 1F
+r160900		r160900@rguktrkv.ac.in		iiits123	N GOUTHAM GOKUL					BH2 PHONE 0F
+r161000		r161000@rguktrkv.ac.in		iiits123	CHOWDAM RAMA SANJEEV				BH2 PHONE 1F	
+
+r170100		r170100@rguktrkv.ac.in		iiits123	GAGGUTURI MUNTAJ				10.101.101.100
+r170200		r170200@rguktrkv.ac.in		iiits123	DASARI SUDHEER					10.101.102.100
+r170300		r170300@rguktrkv.ac.in		iiits123	YADAVA ROOPA LAKSHMI				10.101.151.100
+r170400		r170400@rguktrkv.ac.in		iiits123	SHAIK SHAJEED					10.101.152.100
+r170500		r170500@rguktrkv.ac.in		iiits123	PANJUGALA SHASHIKALA				EEE LAP 1
+r170600 	r170600@rguktrkv.ac.in		iiits123	SARKAR LOKESH					EEE LAP 2
+r170700		r170700@rguktrkv.ac.in		iiits123	POTTAPALLI SIRIVENNELA				GH1 PHONE 2F
+r170800		r170800@rguktrkv.ac.in		iiits123	SHAIK MUNEERA					GH1 TAB 3F
+r170900		r170900@rguktrkv.ac.in		iiits123	KARUMURI LAKSHMI DEEPAK				BH1 PHONE 2F
+r171000		r171000@rguktrkv.ac.in		iiits123	POLIKI SANTHOSH REDDY				BH1 PHONE 3F
+
+r180100		r180100@rguktrkv.ac.in		iiits123	MAREM SAI LEELA MOHAN				10.101.1.100
+r180200		r180200@rguktrkv.ac.in		iiits123	MUTHUKURU MEGHANA				10.101.2.100
+r180300		r180300@rguktrkv.ac.in		iiits123	G PAVAN KALYAN					10.101.51.100
+r180400		r180400@rguktrkv.ac.in		iiits123	GADIGE SWATHI					10.101.52.100
+r180500		r180500@rguktrkv.ac.in		iiits123	AVULA SUBBARAYUDU				ECE LAP1
+r180600		r180600@rguktrkv.ac.in		iiits123	BASIREDDY MANJULA				ECE LAP2
+r180700		r180700@rguktrkv.ac.in		iiits123	DUDEKULA USENI					BH1 TAB 0F
+r180800		r180800@rguktrkv.ac.in		iiits123	DUDEKULA RAVI KUMAR 				BH1 TAB 1F
+r180900		r180900@rguktrkv.ac.in		iiits123	CHAKALI BHARATHI 				GH1 TAB 0F
+r181000		r181000@rguktrkv.ac.in		iiits123	BASIREDDY MANJULA				GH1 PHONE 1F
+
+r190100		r190100@rguktrkv.ac.in		iiits123	JASTI MONIKA					10.103.1.100
+r190200		r190200@rguktrkv.ac.in		iiits123	YERRAGUNTA SANDEEP KUMAR REDDY			10.103.2.100
+r190300		r190300@rguktrkv.ac.in		iiits123	UDUMULA SANDHYA RANI				10.103.3.100
+r190400		r190400@rguktrkv.ac.in		iiits123	KUPPAM VINOD KUMAR REDDY			10.103.51.100
+r190500		r190500@rguktrkv.ac.in		iiits123	KUMMETHA BHARGAVI 				10.103.52.100
+r190600		r190600@rguktrkv.ac.in		iiits123	JADA LAVAN THEJA				10.103.53.100
+r190700		r190700@rguktrkv.ac.in		iiits123	MADDHELA RANI
+r190800		r190800@rguktrkv.ac.in		iiits123	PASALURU ANUSHA					CIVIL LAP 1
+r190900		r190900@rguktrkv.ac.in		iiits123	K VAMSHI					MECH LAP 1
+r191000		r191000@rguktrkv.ac.in		iiits123	RAYAVARAM SAI PRAKASH REDDY			MECH LAP 2
+
+r200100		r200100@rguktrkv.ac.in		iiits123	KASIREDDY SHIVA KUMARI				10.103.101.100
+r200200		r200200@rguktrkv.ac.in		iiits123	MARTHALA VENKATA PAVAN KUMAR REDDY		10.103.102.100
+r200300		r200300@rguktrkv.ac.in		iiits123	MITTA SOWMYA SREE				10.103.103.100
+r200400		r200400@rguktrkv.ac.in		iiits123	SRIRAMULA SURENDRA 				10.103.151.100
+r200500		r200500@rguktrkv.ac.in		iiits123	GUDURU PAVANI					10.103.152.100
+r200600		r200600@rguktrkv.ac.in		iiits123	UDUMULA GOVARDHAN				10.103.153.100
+r200700		r200700@rguktrkv.ac.in		iiits123	KENCHAKKAGARI PRATHYUSHA
+r200800		r200800@rguktrkv.ac.in		iiits123	NEELAM RAMA NIKITHA				CIVIL LAP 2
+r200900		r200900@rguktrkv.ac.in		iiits123	SIMGAM VEDAPRAKASH				CSE LAP 1
+r201000		r201000@rguktrkv.ac.in		iiits123	TALARI BABJI 					CSE LAP 2
+
+
+
+
+dept mails=["director@rguktrkv.ac.in",'finance@rguktrkv.ac.in','schlorship@rguktrkv.ac.in','dean@rguktrkv.ac.in','examcell@rguktrkv.ac.in','warden@rguktrkv.ac.in','srv1@rguktrkv.ac.in','srv2@rguktrkv.ac.in','telugu@rguktrkv.ac.in','physics@rguktrkv.ac.in','chemistry@rguktrkv.ac.in','english@rguktrkv.ac.in','maths@rguktrkv.ac.in','biology@rguktrkv.ac.in','cse@rguktrkv.ac.in','eee@rguktrkv.ac.in','ece@rguktrkv.ac.in','civil@rguktrkv.ac.in','mech@rguktrkv.ac.in','mme@rguktrkv.ac.in','labcomplex@rguktrkv.ac.in','library@rguktrkv.ac.in']
+
