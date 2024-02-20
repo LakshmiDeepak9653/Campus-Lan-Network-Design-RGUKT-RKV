@@ -4,6 +4,7 @@
  We're thrilled to have you here.
 
 this is a replication of a Campus LAN network of my collage <strong>RGUKT RK Valley</strong>. Did to test my CCNA Knowledge
+>The main idea of my project is Replicate my campus LAN design with appropriate Features Like. Main Web server, Email server and DNS server and NTP server and Many more Features included in that design.
 
 Before getting into the details of this project. Lets talk about some common LAN design principles and best practices i followed.
 <details>
@@ -14,14 +15,14 @@ Before getting into the details of this project. Lets talk about some common LAN
     <p>
      Before staring the design of our LAN. we need to ask ourself some questions about our Project and find the Answers to them.
      Here are the Questions and my Answers to them as per this Project.
-     <b><ul>I. What are the Main functions and applications of our LAN?</ul></b>
-       The main idea of my project is Replicate my campus LAN design with appropriate Features Like. Main Web server, Email server and DNS server and NTP server and Many more Features included in that design.<br>
-     <b><ul>II. How  many Users and devices will access your the Network?</ul></b>
-       There are more than 6000 students and 300+ faculty and many more users are there. Network must be available to users as Wired or Wireless.<br>
-     <b><ul>III. What are the expected traffic patterns and bandwidth requirements?</ul></b>
-       In our project we have two traffic patterns thats is faculty traffic and students traffic. The students must not access the faculty devices. The bandwidth requirements will the intra area communications (between the routers) must be fast.<br>
-     <b><ul>IV. How will we ensure security and privacy of your data?</ul></b>
-       All the outside intiating connections must be stopped and incoming traffic must be checked.<br>
+     <b><dl>I. What are the Main functions and applications of our LAN?</b></dl>
+       <dt>The main idea of my project is Replicate my campus LAN design with appropriate Features Like. Main Web server, Email server and DNS server and NTP server and Many more Features included in that design</dt>.<br>
+     <b><dl>II. How  many Users and devices will access your the Network?</dl></b>
+       <dt>There are more than 6000 students and 300+ faculty and many more users are there. Network must be available to users as Wired or Wireless.</dt><br>
+     <b><dl>III. What are the expected traffic patterns and bandwidth requirements?</dl></b>
+       <dt>In our project we have two traffic patterns thats is faculty traffic and students traffic. The students must not access the faculty devices. The bandwidth requirements will the intra area communications (between the routers) must be fast.</dt><br>
+     <b><dl>IV. How will we ensure security and privacy of your data?</dl></b>
+       <dt>All the outside intiating connections must be stopped and incoming traffic must be checked.</dt><br>
      These questions will help you determine the scope, size, and structure of your LAN, as well as the hardware and software components you will need.  
     </p>
   </samp>
@@ -38,34 +39,34 @@ Before getting into the details of this project. Lets talk about some common LAN
      <img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/Screenshot%202024-01-26%20124921.png">
      <br>
      By seeing this we can map the Physical Locations or regions of Networks. That are:-
-     <strong><ol>Main Campus</ol></strong>
-     <ul>1. Faculty Quaters (6 Quaters)</ul>
-     <ul>2. Library (2 Floors)</ul> 
-     <ul>3. Lab Complex</ul>
-     <ul>4. Academic Block - 1 (4 Floors)</ul> 
-     <ul>5. Academic Block - 2 (4 Floors)</ul>
-     <ul>6. Boys Hostel - 1 (4 Floors)</ul>
-     <ul>7. Girls Hostel - 1 (4 Floors)</ul>
-     <ul>8. Girls Hostel - 2 (4 Floors)</ul>
-     <ul>9. Boys Hostel - 2 (4 Floors)</ul>
-     <ul>10. Guest House</ul>
-     <ul>11. C.S.E Department</ul>
-     <ul>12. E.C.E Department</ul>
-     <ul>13. M.M.E Department</ul>
-     <ul>14. CIVIL Department</ul>
-     <ul>15. MECH Department</ul>
-     <ul>16. E.E.E Department</ul>
+     <strong><dl>Main Campus</dl></strong>
+     <dt>1. Facdtty Quaters (6 Quaters)</dt>
+     <dt>2. Library (2 Floors)</dt> 
+     <dt>3. Lab Complex</dt>
+     <dt>4. Academic Block - 1 (4 Floors)</dt> 
+     <dt>5. Academic Block - 2 (4 Floors)</dt>
+     <dt>6. Boys Hostel - 1 (4 Floors)</dt>
+     <dt>7. Girls Hostel - 1 (4 Floors)</dt>
+     <dt>8. Girls Hostel - 2 (4 Floors)</dt>
+     <dt>9. Boys Hostel - 2 (4 Floors)</dt>
+     <dt>10. Guest House</dt>
+     <dt>11. C.S.E Department</dt>
+     <dt>12. E.C.E Department</dt>
+     <dt>13. M.M.E Department</dt>
+     <dt>14. CIVIL Department</dt>
+     <dt>15. MECH Department</dt>
+     <dt>16. E.E.E Department</dt>
      <br>
-     <strong><ol>Old Campus</ol></strong>
-     <ul>1. PI Class Rooms</ul>
-     <ul>2. MU Class Rooms</ul> 
-     <ul>3. KAPPA Class Rooms</ul>
-     <ul>4. LAMBDA Class Rooms</ul> 
-     <ul>5. Girls Hostels RKV (Alpha/Beta)</ul>
-     <ul>6. Girls Hostels ONG (Gamma/Delta)</ul>
-     <ul>7. Boys Hostels RKV (Rho)</ul>
-     <ul>8. Boys Hostels ONG (Teta)</ul>
-     <ul>9. S.A.C Building</ul> 
+     <strong><dl>Old Campus</dl></strong>
+     <dt>1. PI Class Rooms</dt>
+     <dt>2. MU Class Rooms</dt> 
+     <dt>3. KAPPA Class Rooms</dt>
+     <dt>4. LAMBDA Class Rooms</dt> 
+     <dt>5. Girls Hostels RKV (Alpha/Beta)</dt>
+     <dt>6. Girls Hostels ONG (Gamma/Delta)</dt>
+     <dt>7. Boys Hostels RKV (Rho)</dt>
+     <dt>8. Boys Hostels ONG (Teta)</dt>
+     <dt>9. S.A.C Building</dt> 
 <br>
    Based on the Physical Locations Create a Img that ressembles this LAN Network.<br>
    <img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/rkv%20backgroundpng_Edited%20-%20Copy.png">
@@ -96,8 +97,27 @@ Before getting into the details of this project. Lets talk about some common LAN
   <samp>
     <p>
      <br>
-     Network segmentation and addressing are techniques that can help us organize and manage our LAN more effectively. Network segmentation is the process of dividing our LAN into smaller subnetworks, or subnets, based on logical criteria, such as function, location, or department. As per <b>RFC 1918</b> i use 10.0.0.0/8 subnet because i need to connect alot of devices this will provide me that Host address space and i will be using the Subnet Mask of 255.255.255.0  Which means i will be using 2^16 subnets and host space will 2^8. That would be lot more enough.<br>
+     Network segmentation and addressing are techniques that can help us organize and manage our LAN more effectively. Network segmentation is the process of dividing our LAN into smaller subnetworks, or subnets, based on logical criteria, such as function, location, or department. As per <b>RFC 1918</b> i use <b></b>10.0.0.0/8</b> subnet because i need to connect alot of devices this will provide me that Host address space and i will be using the <b>Subnet Mask of 255.255.255.0</b>  Which means i will be using <b>2^16 subnets</b> and <b>2^8 hosts</b> space. That would be lot more enough.<br>
     <br>Here comes the Address Scheme of This Network.
+  <table>
+<thead>
+  <tr>
+    <th align ="center"> Address Space </th>
+     <th align="center"> Device </th>
+   <th align="center"> Interface </th>
+  </tr>
+ <tr>
+    <td align ="center"> 10.0.0.1 </td>
+     <td align="center"> Central Router </td>
+   <td align="center"> G0/0/0 </td>
+  </tr>
+ <tr>
+    <td>----------------------------------------</td>
+    <td>----------------------------------------</td>
+    <td>----------------------------------------</td>
+  </tr>
+</thead>
+</table>
     </p>
   </samp>
 </div>
@@ -114,7 +134,7 @@ Before getting into the details of this project. Lets talk about some common LAN
 </div>
 </details>
 
-```The main idea of my project is Replicate my campus LAN design with appropriate Features Like. Main Web server, Email server and DNS server and NTP server and Many more Features included in that design.```
+### All we Discussed is the skeleton Structure of the project and apporoach. There is alot more work to do, We will see that..........
 
 
 
