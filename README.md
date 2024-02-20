@@ -83,6 +83,9 @@ Before getting into the details of this project. Lets talk about some common LAN
      <br>We start from <b>Faculty Quaters, Hostels(Boys and Girls) and Guest House</b>. we use <b>wireless technologies(WiFi)</b>, Because These places are residance locations in the Campus where setting up a WiFi would be appropriate choice.<br>
      <br>Then Next one are <b>Students Classrooms(Academic Block 1 & 2, PI, MU, Kappa, Lamdba)</b>. Each one have more than 20 classes(each Academic Blocks has 100 classe rooms), but the students presence would be fixed(less than or equal to 100) so <b>Wired Network</b> would be appropriate.<br>
      <br>Next is a some Special Sections Where we need to use <b>Both Wired and Wireless Technolgies</b>. Wired Network to connect to the Departments inside the network sections and Wireless for students, Although students presence is not fixed. They are <b>Library, Lab Complex, CSE Dept, ECE Dept, EEE Dept, Civil Dept, Mech Dept, MME Dept.</b><br>
+     <br>As we finished up the decision of technologies being used we fill up the topology with approriate devices in packet tracer.<br>
+     that would look like this......<br>
+     <img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/partiol%20rkv.png"></img>
     </p>
   </samp>
 </div>
@@ -92,7 +95,9 @@ Before getting into the details of this project. Lets talk about some common LAN
 <div>
   <samp>
     <p>
-     
+     <br>
+     Network segmentation and addressing are techniques that can help us organize and manage our LAN more effectively. Network segmentation is the process of dividing our LAN into smaller subnetworks, or subnets, based on logical criteria, such as function, location, or department. As per <b>RFC 1918</b> i use 10.0.0.0/8 subnet because i need to connect alot of devices this will provide me that Host address space and i will be using the Subnet Mask of 255.255.255.0  Which means i will be using 2^16 subnets and host space will 2^8. That would be lot more enough.<br>
+    <br>Here comes the Address Scheme of This Network.
     </p>
   </samp>
 </div>
