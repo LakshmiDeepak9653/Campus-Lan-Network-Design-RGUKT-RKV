@@ -86,7 +86,7 @@ Before getting into the details of this project. Lets talk about some common LAN
      <br>Next is a some Special Sections Where we need to use <b>Both Wired and Wireless Technolgies</b>. Wired Network to connect to the Departments inside the network sections and Wireless for students, Although students presence is not fixed. They are <b>Library, Lab Complex, CSE Dept, ECE Dept, EEE Dept, Civil Dept, Mech Dept, MME Dept.</b><br>
      <br>As we finished up the decision of technologies being used we fill up the topology with approriate devices in packet tracer.<br>
      that would look like this......<br>
-     <img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/RKV%20COMPLETE%20TOPOLOGY.png"></img>
+     <img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/deepak.png"></img>
     </p>
   </samp>
 </div>
