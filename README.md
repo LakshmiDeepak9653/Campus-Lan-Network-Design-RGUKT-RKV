@@ -87,6 +87,7 @@ Before getting into the details of this project. Lets talk about some common LAN
      <br>As we finished up the decision of technologies being used we fill up the topology with approriate devices in packet tracer.<br>
      that would look like this......<br>
      <img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/deepak.png"></img>
+   I think you have to zoom it for better clarity.......
     </p>
   </samp>
 </div>
