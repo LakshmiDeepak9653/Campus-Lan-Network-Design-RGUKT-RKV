@@ -1542,8 +1542,35 @@ Before getting into the details of this project. Lets talk about some common LAN
 </details>
 
 ## The Features included .........
-* DHCP assinged address for each device.
-* 
+<li> Used 10.0.0.0/8 subnet of private address as per RFC1918.</li>
+<li> Used Network Address Translation(NAT) for the internet usage in LAN.</li>
+<li> Used subnet mask of 255.255.255.0(/24) for endhosts, 255.255.255.252(/30) for point to point connections and 255.255.255.248(/29) for point to multipoint connections.</li>
+<li> Each Network Device is Configured with appropriate Hostname and Domain name of RGUKT.</li>
+<li> In this LAN, It has DNS Server 10.10.10.10 to resolve the local domain names and use Google DNS(8.8.8.8) for recursive DNS search.</li>
+<li> In this LAN, It has WebServer 10.9.10.9(rgukt.com) with the official Collage Website(quite functional).</li>
+<li> In this LAN, It has Syslog Server, where all the log msgs from Network Devices will be stored at one place.</li>
+<li> In this LAN, It has Email Server with the @rguktrkv.ac.in domain and preconfigured with more than 70 different email address and passwords configured in most of all devices in LAN.</li>
+<li> In Switchs for security we have enabled Port-Security, Arp Inspection, DHCP snooping and Portfast for Immediate transition to Forwarding state.</li>
+<li> In Switchs all the unused ports are shutdown and moved to Unused VLAN.</li>
+<li> In Multilayer Switches enabled routing and Configured appropriate Routed Ports.</li>
+<li> Used Open Shortest Path First(OSPF) for Routing protocol with default Route.</li>
+<li> Each Department in LAN has its own Ip Phone(fully functional we can call any IP phone in LAN)(Telephone-service & Dial-peerings).</li>
+<li> Each Device has login Credentials(either console or vty) that is Username is "admin" password is "deepak".</li>
+<li> and the enable password with md5 encryption (default) is "passwd".</li>
+<li> Each Device can be remotely login by using only SSH But the access is limited to only Server Room devices(either SRV1 or SRV2) by applying AccessLists.</li>
+<li> Each wired and wirelss endhost may get its appropriate address from their DHCP server(configured in nearby routers).</li>
+<li> For Wireless Users configured a LightWeight Aps model with Wlc (username:-"admin" password:-"Wifi@123") in FlexConnect mode.</li>
+<li> We can connect To any wireless AP by providing SSID and Password(rgukt123) (WPA2+PSK).</li>
+<li> Used VLANs in MultiLayer Switchs to providing multiple SSIDs from same Switch and interfaces are Configured as trunk.</li>
+
+Thank you for checking out my project! If you encounter any errors, bugs, or have any ideas on how to make this project better, I'd love to hear from you. Your feedback is incredibly valuable and helps improve the overall quality of the project.
+
+Please feel free to open an issue here on GitHub or reach out to me directly via Contact Details given below with any suggestions, questions, or concerns you may have.
+
+Let's work together to make this project even more awesome!
+
+<b>Your Friend <br>
+Karumuri Lakshmi Deepak</b>
 
 ## <b> Let's Connect..!</b><img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/handshake.gif" width ="80">
 <br>
