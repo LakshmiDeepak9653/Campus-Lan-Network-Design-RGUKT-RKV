@@ -387,6 +387,1137 @@ Before getting into the details of this project. Lets talk about some common LAN
      <td align="center"> AB1 Router 2 </td>
    <td align="center"> G9/0 </td>
   </tr>
+<tr>
+    <td align ="center"> 10.1.2.53 </td>
+     <td align="center"> AB2 Router 1 </td>
+   <td align="center"> G3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.57 </td>
+     <td align="center"> AB2 Router 1 </td>
+   <td align="center"> G4/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.69 </td>
+     <td align="center"> AB2 Router 1 </td>
+   <td align="center"> G5/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.73 </td>
+     <td align="center"> AB2 Router 1 </td>
+   <td align="center"> G6/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.1.26 </td>
+     <td align="center"> AB2 Router 1 </td>
+   <td align="center"> G7/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.61 </td>
+     <td align="center"> AB2 Router 1 </td>
+   <td align="center"> G8/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.65 </td>
+     <td align="center"> AB2 Router 1 </td>
+   <td align="center"> G9/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.77 </td>
+     <td align="center"> AB2 Router 2 </td>
+   <td align="center"> G3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.81 </td>
+     <td align="center"> AB2 Router 2 </td>
+   <td align="center"> G4/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.93 </td>
+     <td align="center"> AB2 Router 2 </td>
+   <td align="center"> G5/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.97 </td>
+     <td align="center"> AB2 Router 2 </td>
+   <td align="center"> G6/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.1.30 </td>
+     <td align="center"> AB2 Router 2 </td>
+   <td align="center"> G7/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.85 </td>
+     <td align="center"> AB2 Router 2 </td>
+   <td align="center"> G8/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.89 </td>
+     <td align="center"> AB2 Router 2 </td>
+   <td align="center"> G9/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.6 </td>
+     <td align="center"> G1 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.101.1.1 </td>
+     <td align="center"> G1 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.10 </td>
+     <td align="center"> G2 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.101.2.1 </td>
+     <td align="center"> G2 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.54 </td>
+     <td align="center"> G3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.102.1.1 </td>
+     <td align="center"> G3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.58 </td>
+     <td align="center"> G4 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.102.2.1 </td>
+     <td align="center"> G4 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.26 </td>
+     <td align="center"> F1 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.101.51.1 </td>
+     <td align="center"> F1 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.22 </td>
+     <td align="center"> F2 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.101.52.1 </td>
+     <td align="center"> F2 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.74 </td>
+     <td align="center"> F3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.102.51.1 </td>
+     <td align="center"> F3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.70 </td>
+     <td align="center"> F4 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.102.52.1 </td>
+     <td align="center"> F4 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.30 </td>
+     <td align="center"> S1 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.101.101.1 </td>
+     <td align="center"> S1 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.34 </td>
+     <td align="center"> S2 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.101.102.1 </td>
+     <td align="center"> S2 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.78 </td>
+     <td align="center"> S3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.102.101.1 </td>
+     <td align="center"> S3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.82 </td>
+     <td align="center"> S4 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.102.102.1 </td>
+     <td align="center"> S4 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.50 </td>
+     <td align="center"> T1 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.101.151.1 </td>
+     <td align="center"> T1 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.6 </td>
+     <td align="center"> T2 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.101.152.1 </td>
+     <td align="center"> T2 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.98 </td>
+     <td align="center"> T3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.102.151.1 </td>
+     <td align="center"> T3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.94 </td>
+     <td align="center"> T3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.102.152.1 </td>
+     <td align="center"> T3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.14 </td>
+     <td align="center"> FO Router </td>
+   <td align="center"> G0/0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.101 </td>
+     <td align="center"> FO Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.5.1.1 </td>
+     <td align="center"> FO Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.102 </td>
+     <td align="center"> Dir Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.3.1.1 </td>
+     <td align="center"> Dir Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.105 </td>
+     <td align="center"> Tel Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.18 </td>
+     <td align="center"> Tel Router </td>
+   <td align="center"> G0/2/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.11.1.1 </td>
+     <td align="center"> Tel Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.106 </td>
+     <td align="center"> SO Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.7.1.1 </td>
+     <td align="center"> SO Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.38 </td>
+     <td align="center"> Srv1 Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.9.10.1 </td>
+     <td align="center"> Srv1 Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.42 </td>
+     <td align="center"> Phy Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.109 </td>
+     <td align="center"> Phy Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.13.1.1 </td>
+     <td align="center"> Phy Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.110 </td>
+     <td align="center"> Chem Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.15.1.1 </td>
+     <td align="center"> Chem Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.62 </td>
+     <td align="center"> EC Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.113 </td>
+     <td align="center"> EC Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.6.1.1 </td>
+     <td align="center"> EC Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.114 </td>
+     <td align="center"> Dean Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.4.1.1 </td>
+     <td align="center"> Dean Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.66 </td>
+     <td align="center"> Eng Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.117 </td>
+     <td align="center"> Eng Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.12.1.1 </td>
+     <td align="center"> Eng Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.118 </td>
+     <td align="center"> WO Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.8.1.1 </td>
+     <td align="center"> WO Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.86 </td>
+     <td align="center"> Srv2 Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.10.10.1 </td>
+     <td align="center"> Srv2 Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.121 </td>
+     <td align="center"> Math Router </td>
+   <td align="center"> G0/0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.90 </td>
+     <td align="center"> Math Router </td>
+   <td align="center"> G0/2/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.14.1.1 </td>
+     <td align="center"> Math Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.2.122 </td>
+     <td align="center"> Bio Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.16.1.1 </td>
+     <td align="center"> Bio Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.57 </td>
+     <td align="center"> Main Router 2 </td>
+   <td align="center"> G3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.61 </td>
+     <td align="center"> Main Router 2 </td>
+   <td align="center"> G4/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.53 </td>
+     <td align="center"> Main Router 2 </td>
+   <td align="center"> G5/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.45 </td>
+     <td align="center"> Main Router 2 </td>
+   <td align="center"> G6/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.14 </td>
+     <td align="center"> Main Router 2 </td>
+   <td align="center"> G8/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.1.22 </td>
+     <td align="center"> Main Router 2 </td>
+   <td align="center"> G9/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.46 </td>
+     <td align="center"> Bh1 SW </td>
+   <td align="center"> G0/2 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.60.0.1 </td>
+     <td align="center"> Bh1 SW </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.60.1.1 </td>
+     <td align="center"> Bh1 SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.60.2.1 </td>
+     <td align="center"> Bh1 SW </td>
+   <td align="center"> Vlan 12 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.60.3.1 </td>
+     <td align="center"> Bh1 SW </td>
+   <td align="center"> Vlan 13 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.60.100.1 </td>
+     <td align="center"> Bh1 SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.54 </td>
+     <td align="center"> Gh1 SW </td>
+   <td align="center"> G0/2 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.62.0.1 </td>
+     <td align="center"> Gh1 SW </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.62.1.1 </td>
+     <td align="center"> Gh1 SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.62.2.1 </td>
+     <td align="center"> Gh1 SW </td>
+   <td align="center"> Vlan 12 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.62.3.1 </td>
+     <td align="center"> Gh1 SW </td>
+   <td align="center"> Vlan 13 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.62.100.1 </td>
+     <td align="center"> Gh1 SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.58 </td>
+     <td align="center"> Gh2 SW </td>
+   <td align="center"> G0/2 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.63.0.1 </td>
+     <td align="center"> Gh2 SW </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.63.1.1 </td>
+     <td align="center"> Gh2 SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.63.2.1 </td>
+     <td align="center"> Gh2 SW </td>
+   <td align="center"> Vlan 12 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.63.3.1 </td>
+     <td align="center"> Gh2 SW </td>
+   <td align="center"> Vlan 13 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.63.100.1 </td>
+     <td align="center"> Gh2 SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.62 </td>
+     <td align="center"> Bh2 SW </td>
+   <td align="center"> G0/2 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.61.0.1 </td>
+     <td align="center"> Bh2 SW </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.61.1.1 </td>
+     <td align="center"> Bh2 SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.61.2.1 </td>
+     <td align="center"> Bh2 SW </td>
+   <td align="center"> Vlan 12 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.61.3.1 </td>
+     <td align="center"> Bh2 SW </td>
+   <td align="center"> Vlan 13 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.61.100.1 </td>
+     <td align="center"> Bh2 SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.6 </td>
+     <td align="center"> GuestH SW </td>
+   <td align="center"> G0/2 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.71.0.1 </td>
+     <td align="center"> GuestH SW </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.71.100.1 </td>
+     <td align="center"> GuestH SW </td>
+   <td align="center"> Vlan 99 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.22 </td>
+     <td align="center"> CSE Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.17.1.1 </td>
+     <td align="center"> CSE Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.51.1.1 </td>
+     <td align="center"> CSE Router </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.51.100.1 </td>
+     <td align="center"> CSE Router </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.26 </td>
+     <td align="center"> CIVIL Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.22.1.1 </td>
+     <td align="center"> CIVIL Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.56.1.1 </td>
+     <td align="center"> CIVIL Router </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.56.100.1 </td>
+     <td align="center"> CIVIL Router </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.30 </td>
+     <td align="center"> ECE Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.18.1.1 </td>
+     <td align="center"> ECE Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.52.1.1 </td>
+     <td align="center"> ECE Router </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.52.100.1 </td>
+     <td align="center"> ECE Router </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.34 </td>
+     <td align="center"> Mech Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.21.1.1 </td>
+     <td align="center"> Mech Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.55.1.1 </td>
+     <td align="center"> Mech Router </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.55.100.1 </td>
+     <td align="center"> Mech Router </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.38 </td>
+     <td align="center"> Mme Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.19.1.1 </td>
+     <td align="center"> Mme Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.53.1.1 </td>
+     <td align="center"> Mme Router </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.53.100.1 </td>
+     <td align="center"> Mme Router </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.42 </td>
+     <td align="center"> EEE Router </td>
+   <td align="center"> G0/1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.20.1.1 </td>
+     <td align="center"> EEE Router </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.54.1.1 </td>
+     <td align="center"> EEE Router </td>
+   <td align="center"> Vlan 10 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.54.100.1 </td>
+     <td align="center"> EEE Router </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.5 </td>
+     <td align="center"> Dept Router 1 </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.55 </td>
+     <td align="center"> Dept Router 1 </td>
+   <td align="center"> G7/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.21 </td>
+     <td align="center"> Dept Router 1 </td>
+   <td align="center"> G8/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.9 </td>
+     <td align="center"> Dept Router 1 </td>
+   <td align="center"> G9/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.34 </td>
+     <td align="center"> Dept Router 2 </td>
+   <td align="center"> G5/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.29 </td>
+     <td align="center"> Dept Router 2 </td>
+   <td align="center"> G6/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.10 </td>
+     <td align="center"> Dept Router 2 </td>
+   <td align="center"> G7/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.17 </td>
+     <td align="center"> Dept Router 2 </td>
+   <td align="center"> G8/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.13 </td>
+     <td align="center"> Dept Router 2 </td>
+   <td align="center"> G9/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.18 </td>
+     <td align="center"> Dept Router 3 </td>
+   <td align="center"> G7/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.37 </td>
+     <td align="center"> Dept Router 3 </td>
+   <td align="center"> G8/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.1.3.41 </td>
+     <td align="center"> Dept Router 3 </td>
+   <td align="center"> G9/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.5 </td>
+     <td align="center"> Old Router  </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.9 </td>
+     <td align="center"> Old Router  </td>
+   <td align="center"> G1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.0.2.17 </td>
+     <td align="center"> Old Router  </td>
+   <td align="center"> G7/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.0.2.5 </td>
+     <td align="center"> Old Router  </td>
+   <td align="center"> G8/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.0.2.9 </td>
+     <td align="center"> Old Router  </td>
+   <td align="center"> G9/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.33 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G1/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.29 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G2/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.61 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.25 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G4/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.10 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G5/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.21 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G6/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.17 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G7/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.13 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G8/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.6 </td>
+     <td align="center"> Main Router 3 </td>
+   <td align="center"> G9/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.9 </td>
+     <td align="center"> M Router </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.22 </td>
+     <td align="center"> M Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.17 </td>
+     <td align="center"> P Router </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.14 </td>
+     <td align="center"> P Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.25 </td>
+     <td align="center"> K Router </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.18 </td>
+     <td align="center"> K Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.33 </td>
+     <td align="center"> L Router </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.26 </td>
+     <td align="center"> L Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.13 </td>
+     <td align="center"> M SW </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.21 </td>
+     <td align="center"> P SW </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.29 </td>
+     <td align="center"> K SW </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.37 </td>
+     <td align="center"> L SW </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.1.1 </td>
+     <td align="center"> P1 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.20 </td>
+     <td align="center"> P1 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.2.1 </td>
+     <td align="center"> P2 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.19 </td>
+     <td align="center"> P2 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.3.1 </td>
+     <td align="center"> P3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.18 </td>
+     <td align="center"> P3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.51.1 </td>
+     <td align="center"> K1 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.26 </td>
+     <td align="center"> K1 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.52.1 </td>
+     <td align="center"> K2 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.27 </td>
+     <td align="center"> K2 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.53.1 </td>
+     <td align="center"> K3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.28 </td>
+     <td align="center"> K3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.101.1 </td>
+     <td align="center"> M1 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.10 </td>
+     <td align="center"> M1 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.102.1 </td>
+     <td align="center"> M2 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.11 </td>
+     <td align="center"> M2 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.103.1 </td>
+     <td align="center"> M3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.12 </td>
+     <td align="center"> M3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.151.1 </td>
+     <td align="center"> L1 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.34 </td>
+     <td align="center"> L1 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.152.1 </td>
+     <td align="center"> L2 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.35 </td>
+     <td align="center"> L2 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.103.153.1 </td>
+     <td align="center"> L3 </td>
+   <td align="center"> Vlan 1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.2.36 </td>
+     <td align="center"> L3 </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.53 </td>
+     <td align="center"> Sac Router </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.62 </td>
+     <td align="center"> Sac Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.54 </td>
+     <td align="center"> Sac SW </td>
+   <td align="center"> G0/2 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.75.1.1 </td>
+     <td align="center"> Sac SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.75.100.1 </td>
+     <td align="center"> Sac SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.45 </td>
+     <td align="center"> GH Router </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.49 </td>
+     <td align="center"> GH Router </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.30 </td>
+     <td align="center"> GH Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.46 </td>
+     <td align="center"> GHR SW </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.74.1.1 </td>
+     <td align="center"> GHR SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.74.2.1 </td>
+     <td align="center"> GHR SW </td>
+   <td align="center"> Vlan 12 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.74.100.1 </td>
+     <td align="center"> GHR SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.50 </td>
+     <td align="center"> GHO SW </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.73.1.1 </td>
+     <td align="center"> GHO SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.73.2.1 </td>
+     <td align="center"> GHO SW </td>
+   <td align="center"> Vlan 12 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.73.100.1 </td>
+     <td align="center"> GHO SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.57 </td>
+     <td align="center"> Bh Router </td>
+   <td align="center"> G0/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.41 </td>
+     <td align="center"> Bh Router </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.34 </td>
+     <td align="center"> Bh Router </td>
+   <td align="center"> G0/3/0 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.58 </td>
+     <td align="center"> BhR SW </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.76.1.1 </td>
+     <td align="center"> BhR SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.76.2.1 </td>
+     <td align="center"> BhR SW </td>
+   <td align="center"> Vlan 12 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.76.100.1 </td>
+     <td align="center"> BhR SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.2.1.42 </td>
+     <td align="center"> BhO SW </td>
+   <td align="center"> G0/1 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.77.1.1 </td>
+     <td align="center"> BhO SW </td>
+   <td align="center"> Vlan 11 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.77.2.1 </td>
+     <td align="center"> BhO SW </td>
+   <td align="center"> Vlan 12 </td>
+  </tr>
+<tr>
+    <td align ="center"> 10.77.100.1 </td>
+     <td align="center"> BhO SW </td>
+   <td align="center"> Vlan 100 </td>
+  </tr>
+
  <tr>
     <td>----------------------------------------</td>
     <td>----------------------------------------</td>
