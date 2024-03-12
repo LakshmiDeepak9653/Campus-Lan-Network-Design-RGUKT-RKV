@@ -1541,9 +1541,9 @@ Before getting into the details of this project. Lets talk about some common LAN
 </div>
 </details>
 
-### All we Discussed is the skeleton Structure of the project and apporoach. There is alot more work to do, We will see that..........
-
-
+## The Features included .........
+* DHCP assinged address for each device.
+* 
 
 ## <b> Let's Connect..!</b><img src="https://github.com/LakshmiDeepak9653/RKV-lan-resources/blob/main/handshake.gif" width ="80">
 <br>
